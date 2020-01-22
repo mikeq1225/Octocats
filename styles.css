@@ -1,0 +1,24 @@
+.octodex {
+  display: flex;
+  flex-direction: row;
+}
+
+.octocat a img {
+  height: 50px;
+  width: 50px;
+  border: solid 1px black;
+}
+
+.image-number::before {
+  content: "#";
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
